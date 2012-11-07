@@ -51,3 +51,8 @@ communityTopic_nodefaults:
 communityEvent_nodefaults:
   url: /communityEvent/*
   param: { module: default, action: error }
+
+comopt_show:
+  url: /comopt/show/:filename
+  params: { module: comopt, action: show }
+  options: { segment_separators: ['/'] }

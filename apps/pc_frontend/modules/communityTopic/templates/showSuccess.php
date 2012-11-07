@@ -26,6 +26,7 @@
 <?php echo op_url_cmd(nl2br($communityTopic->getBody())) ?>
 </p>
 </div>
+<?php include_partial('insertOldFileLink', array('type' => 'topic', 'id' => $communityTopic->getId())); ?>
 </dd>
 </dl>
 <?php if ($communityTopic->isEditable($sf_user->getMemberId())): ?>

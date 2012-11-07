@@ -38,6 +38,7 @@ $images = $comment->getImages();
 <?php echo op_url_cmd(nl2br($comment->getBody())) ?>
 </p>
 </div>
+<?php include_partial('insertOldFileLink', array('type' => 'comment', 'id' => $comment->getId())); ?>
 </dd>
 </dl>
 <?php endforeach; ?>
