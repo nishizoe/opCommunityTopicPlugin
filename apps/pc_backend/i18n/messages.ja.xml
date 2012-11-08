@@ -218,6 +218,10 @@
         <source>Notification of %Community% Posting</source>
         <target>%Community%書き込みお知らせメール</target>
       </trans-unit>
+      <trans-unit id="">
+        <source>Updated Date</source>
+        <target>最終更新日時</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
