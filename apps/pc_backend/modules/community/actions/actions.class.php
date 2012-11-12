@@ -10,6 +10,11 @@
 
 /**
  * community actions.
+ * 
+ * OpenPNE3/plugins/opCommunityTopicPlugin/apps/pc_backend/modules/community以下のソースのコピー元は、
+ * OpenPNE3/apps/pc_backend/modules/communityにあります。
+ * 上記ソースにつけ加えた最新更新日時表示機能としてexecuteListメソッドおよびexecuteDeleteメソッドのSQLを変更し
+ * 最新更新日時を表示するように変更しました。
  *
  * @package    OpenPNE
  * @subpackage community
